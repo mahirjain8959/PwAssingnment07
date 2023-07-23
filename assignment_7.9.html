@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment number 7</title>
+</head>
+<body>
+    <style>
+        span{
+            background-color: rgb(217, 136, 79);
+            padding: 10px 25px;
+        }
+       .dropdown{
+            position: relative;
+            top: 10px;
+            display: inline-block;
+        }
+        .content{
+           display: none;
+           position: absolute;
+           max-height: 150px;
+           background-color: rgb(184, 138, 138);
+           border: 1px solid black;
+           width: 200px;
+           overflow-y: scroll;
+        }
+       .dropdown:hover .content{
+        display: block;
+       }
+       .option{
+        padding: 10px;
+        cursor:pointer ;
+       }
+       .option:hover{
+        background-color: white;
+       }
+    </style>
+    <!-- <h1>question number 9</h1> -->
+    <div class="dropdown">
+    <span>Hover To View Option</span>
+    <div class="content">
+        <div class="option">OPtion 1</div>
+        <div class="option">Option 2</div>
+        <div class="option">Option 3</div>
+        <div class="option">Option 4</div>
+        <div class="option">Option 5</div>
+        <div class="option">Option 6</div>
+        <div class="option">Option 7</div>
+        <div class="option">Option 8</div>
+        <div class="option">Option 9</div>
+    </div>
+    </div>
+</body>
+</html>
